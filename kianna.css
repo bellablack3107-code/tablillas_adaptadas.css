@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght=0,100..900;1,100..900&display=swap');
+
+.kianna {
+    width: 400px;
+    height: 270px;
+    margin: 20px auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 15px;
+    color: var(--accent);
+}
+
+.kianna br {
+    display: none;
+}
+
+.kianna > a {
+    position: absolute;
+    bottom: -20px;
+    left: calc(50% - 31.325px);
+    text-align: center;
+    color: var(--accent2);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.kianna-i {
+    --size: 100%;
+    width: var(--size);
+    height: var(--size);
+    background-image: var(--img);
+    background-size: cover;
+    background-position: center var(--posi);
+    padding: 10px 15px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+}
+
+.kianna-i div {
+    max-width: 55%;
+    padding: 5px 12px;
+    background-color: var(--fog);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: var(--accent2);
+}
+
+.kianna-i div i {
+    font-size: 25px;
+}
+
+.kianna-i div span {
+    font-size: 8px;
+    line-height: 1.2;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+.kianna > span[n] {
+    padding: 10px 5px;
+    background-color: var(--bckgrnd);
+    writing-mode: vertical-rl;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: var(--ls);
+    text-shadow: 0 2px 0 var(--shadow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
